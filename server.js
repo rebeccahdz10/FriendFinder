@@ -7,7 +7,9 @@ var PORT = 7000;
 
 var app = express();
 
+var routes = require("./app/routing/htmlRoutes.js");
 
+app.use(routes);
 
 
 
